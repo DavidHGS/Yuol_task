@@ -1,0 +1,17 @@
+	body,div,span{
+		margin:0;
+		padding:0;
+	}
+	#alter{
+		width:400px;
+		height:200px;
+		background-color: #e2e2e2;
+		position:absolute;
+		left:-400px;
+		top:240px;
+	}
+	#alter span{
+		font-size: 30px;
+		line-height: 200px;
+		padding-left: 130px;
+	}
