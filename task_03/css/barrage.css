@@ -1,0 +1,76 @@
+        *{
+                margin:0;
+                padding:0;
+        }
+        html,body{height: 100%}
+        body{
+                overflow: hidden;
+                background-color: #ffffff;
+        }
+        .flex-column{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+        }
+        .flex-row{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+        }
+        .wrap{
+                overflow: hidden;
+                width: 70%;
+                height: 500px;
+                margin: 100px auto;
+                padding: 20px;
+                background-color: transparent;
+                box-shadow: 0 0 9px #222222;
+                border-radius: 20px;
+        }
+        .wrap .box{
+                position: relative;
+                width: 120%;
+                height: 90%;
+                background-color: #000000;
+                border-radius: 10px;
+        }
+        .wrap .box span{
+                position: absolute;
+                display: block;
+                padding:10px;
+                color: #336688;
+        }
+        .wrap .send{
+                display: flex;
+                width: 120%;
+                height: 10%;
+                background-color: #000000;
+                border-radius: 8px;
+        }
+
+        .warp .send input{
+                width: 40%;
+                height: 60%;
+                border: 0;
+                outline: 0;
+                border-radius: 5px 0 0 5px;
+                box-shadow: 0 0 5px #d9d9d9;
+                text-indent: 1em;
+                margin-left: 350px;
+        }
+
+        .wrap .send .send-btn{
+                width: 100px;
+                height: 60%;
+                background-color: #fe943b;
+                color: #ffffff;
+                text-align: center;
+                border-radius: 0 5px 5px 0;
+                line-height: 30px;
+                cursor: pointer;
+        }
+        .wrap .send .send-btn:hover {
+                background-color: #4cacdc;
+        }
