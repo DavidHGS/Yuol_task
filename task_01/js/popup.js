@@ -1,8 +1,4 @@
 var timer=null;
-function move(){
-	var alter =document.getElementById("alter");
-	startMove();
-}
 function startMove(){
 	var alter =document.getElementById("alter");
 	timer=setInterval(function move(){
