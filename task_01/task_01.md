@@ -15,7 +15,7 @@
 ## 后记
 第一周的任务比较简单，组长应该是想用这个过度一下，感觉接下来的任务应该就没这么轻松了 O-O
 ## 学习资料
-[JS动画效果](http://www.imooc.com/learn/167)——一个学js动画很不错的教学视频
+- [JS动画效果](http://www.imooc.com/learn/167)——一个学js动画很不错的教学视频
 ## 版权
 Copyright © 2017 YUOL-贺广胜, All Rights Reserved
 
