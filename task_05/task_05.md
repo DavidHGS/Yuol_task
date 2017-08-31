@@ -6,6 +6,13 @@
 - 而且vue给我的另一个印象就是，很轻巧，对，就是很轻便，只用了100行代码，就写出了todu list的功能
 - 另一个让我很深刻的就是vue的双向绑定了（例如vue官网里给的实例[表单输入和应用状态之间的双向绑定](https://cn.vuejs.org/v2/guide/#处理用户输入)）只用了短短10行代码就完成了输入框与展示界面的绑定（惊讶，还有这种操作=.=，厉害的很，佩服）
 
+## 知识总结
+- v-text——渲染数据
+- v-if——控制显示
+- v-on——绑定事件
+- v-for——循环渲染
+- [props：['msg']](http://www.jb51.net/article/95802.htm)——将父组件中的数据传递给子组件
+- [import....from](https://cn.vuejs.org/v2/guide/typescript.html#推荐配置)——在app.vue中调用其他文件，前面是文件名后面是文件地址
 ## 学习资料
 - [vue介绍](https://cn.vuejs.org/v2/guide/)——vue的官方介绍
 - [vue的官方文档](https://cn.vuejs.org/v2/api/)
